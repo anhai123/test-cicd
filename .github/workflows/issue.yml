@@ -6,6 +6,8 @@ permissions: write-all
 jobs:
   comment:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
     - name: Rick Roll
       uses: TejasvOnly/random-rickroll@v1.0
