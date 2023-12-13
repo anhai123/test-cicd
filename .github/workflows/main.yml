@@ -35,7 +35,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-     - name: Rick Roll
+    - name: Rick Roll
       uses: TejasvOnly/random-rickroll@v1.0
       with:
         percentage: 100
